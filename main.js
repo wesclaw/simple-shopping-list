@@ -12,7 +12,6 @@ item_form.addEventListener('submit',(e)=>{
     alert('this item was already added')
     return
   }
-   console.log(addedItems)
   const item_list = document.getElementById('item-list')
   const remove_item = document.createElement('button')
   remove_item.classList.add('remove-item', 'btn-link', 'text-red')
