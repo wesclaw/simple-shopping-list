@@ -36,10 +36,20 @@ header h1 {
 .remove-item{
   background-color: transparent;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   cursor: pointer;
   color: red;
+  transition: .2s;
+}
+
+.remove-item:hover{
+  background-color: #f1f1f1;
+  padding-right: 5px;
+  padding-left: 5px;
+  transition: .2s;
+  scale: 1.2;
+  border: .1px solid rgba(0, 0, 0, 0.034);
 }
 
 .edit-mode {
